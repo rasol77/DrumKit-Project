@@ -1,5 +1,5 @@
 'use strict';
-//Seleccionamos del HTML las etiquetas de audio & las teclas
+//Seleccionamos del HTML las etiquetas de  las teclas
 
 //const splash = document.querySelectorAll('audio');
 const divs = document.querySelectorAll('.key').length;
