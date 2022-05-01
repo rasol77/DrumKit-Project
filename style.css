@@ -3,19 +3,19 @@
 		margin: 0;
 		padding: 0;
 		box-sizing: border-box;
-		font-family: 'Rubik Glitch';
 		
-}
-body{
-	width: 100vw;
-	height: 100vh;
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	flex-direction: column;
-	background-image: url(./img/v-drums_history_tn.jpg) ;
-	background-repeat: no-repeat;
-	background-size: cover;
+	}
+	body{
+		width: 100vw;
+		height: 100vh;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		flex-direction: column;
+		background-image: url(./img/v-drums_history_tn.jpg) ;
+		background-repeat: no-repeat;
+		background-size: cover;
+		font-family: 'Rubik Glitch';
 }
 h1{
 	font-weight: 800;
@@ -34,7 +34,7 @@ h1{
 	justify-content: center;
 	flex-wrap: wrap;
 }
-.drum-kit div{
+.drum-kit button{
 	width: 100px;
 	height: 90px;
 	background: rgb(212, 212, 212);
@@ -44,17 +44,23 @@ h1{
 	justify-content: center;
 	border-radius: 5px;
 	margin: 1rem;
+	font-family: 'Rubik Glitch' ;
 }
 .animate{
 	transform: scale(1.09);
 	border: 4px solid rgb(163, 1, 1);
 }
-.drum-kit div kbd{
+.drum-kit {
 	font-weight: 800;
 	font-size: 29px;
 }
-.drum-kit div h3{
-	color: rgb(163, 1, 1);
-	font-size: 1rem;
+.drum-kit  button{
+	color: rgb(15, 1, 1);
+	font-size: 1.8rem;
 	text-align: center;
+}
+.drum-kit button p{
+	margin-top: 0.5rem;
+	color: rgb(163, 1, 1);
+	font-size: 0.8rem;
 }
