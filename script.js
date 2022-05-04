@@ -4,6 +4,7 @@
 //const splash = document.querySelectorAll('audio');
 const divs = document.querySelectorAll('.key').length;
 
+//Recorremos el array 
 for (let i = 0; i < divs; i++) {
   document.querySelectorAll('.key')[i].addEventListener('click', function () {
     const buttonInnerHTML = this.innerHTML;
